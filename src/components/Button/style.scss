@@ -1,0 +1,27 @@
+@import '../../styles/variables.scss';
+
+.button {
+    background-color: $grey-2;
+    border: 1.4px solid $grey-2;
+    border-radius: 8px;
+    padding: 10.5px 15px;
+    color: $grey-3;
+    font-family: inherit;
+    font-size: $t_size-button;
+    font-weight: $t_weight-button;
+    line-height: $t_line-button;
+    box-sizing: border-box;
+    cursor: pointer;
+
+&:hover{
+    background-color: $grey-3;
+    border-color: $grey-3;
+    color: $grey-1;
+}
+}
+
+.buttonActive{
+    background-color: $color-primary;
+    border-color: $color-primary;
+    color: white;
+}

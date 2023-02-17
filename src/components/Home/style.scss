@@ -1,0 +1,18 @@
+.mainHome {
+    margin-top: 39px;
+
+    > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media screen and (min-width: 474px) {
+        gap: 35px;
+    }
+
+    @media screen and (min-width: 900px) {
+        flex-direction: row;
+        gap: 59px;
+    }
+}
+}

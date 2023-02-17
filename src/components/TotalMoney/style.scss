@@ -1,0 +1,20 @@
+@import '../../styles/variables.scss';
+
+.totalMoney {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: $color-primary-2;
+    padding: 19px 15px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+    margin-top: 22px;
+
+
+span {
+    font-weight: $t_weight-title3;
+    font-size: $t_size-title3;
+    line-height: $t_line-title3;
+}
+}

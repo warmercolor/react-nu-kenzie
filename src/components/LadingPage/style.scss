@@ -1,0 +1,76 @@
+@import '../../styles/variables.scss';
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+    padding: 0 5%;
+    background-color: $grey-4;
+    height: 100vh;
+
+.mainContent {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 28px;
+    max-width: 347px;
+
+    h1 {
+    text-align: center;
+    font-size: $t_size-title1;
+    font-weight: $t_weight-title1;
+    line-height: $t_line-title1;
+    }
+
+    p {
+    font-size: $t_size-headline;
+    font-weight: $t_weight-headline;
+    line-height: $t_line-headline;
+    }
+
+    .link {
+    display: block;
+    width: 95%;
+    }
+
+    button {
+    width: 100%;
+    background-color: $color-primary;
+    border: 1.4px solid $color-primary;
+    border-radius: 8px;
+    padding: 14.5px 15px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: $t_size-button2;
+    font-weight: $t_weight-button2;
+    line-height: $t_line-button;
+    box-sizing: border-box;
+    cursor: pointer;
+    }
+}
+
+.mainImage {
+    display: none;
+    width: 50%;
+    max-width: 593px;
+}
+
+@media screen and (min-width: 700px) {
+    .mainContent {
+    align-items: stretch;
+
+    h1 {
+        text-align: left;
+    }
+
+    .link {
+        max-width: 241px;
+    }
+    }
+    .mainImage {
+    display: block;
+    }
+}
+}
